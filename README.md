@@ -7,8 +7,25 @@
    ![image](https://github.com/user-attachments/assets/f99d7777-6fea-47e5-bf9a-fc452f835952)
 
 3. Create a video of the app working with all of the additional features. Make the video small enough to render here or upload to a video service witha aviawable link.
+   ![image](https://github.com/user-attachments/assets/f23f54c6-046a-4623-ad1b-b70649334f1a)
+   ```
+   https://drive.google.com/file/d/1SKSO1fDFfyB8r7QnSASGAShVg6J5-IXF/view?usp=sharing
+   ```
+   
 
-4. Choose two snapshots of code that demonstrate the algorithm(s) used to implement the additional features. Explain the code in the screenshots.
+
+5. Choose two snapshots of code that demonstrate the algorithm(s) used to implement the additional features. Explain the code in the screenshots.
+   ![image](https://github.com/user-attachments/assets/d010eb39-820b-4d41-9e39-742a2b3cca59)
+```
+The update_score() function increases the score by 1 every time it is called and then clears the previous score display to avoid overlap. It uses a turtle (score_writer) to write the new score on the screen in the specified font style.
+```
+
+![image](https://github.com/user-attachments/assets/a919f87c-9e10-43a2-8d9e-15069f6183b2)
+```
+The countdown() function decreases the timer by 1 every second, and when the timer reaches 0, it displays "Time's Up" and stops the game. If the time does not run out, the function keeps calling itself every second using ontimer() to update the countdown.
+```
+
+
 
 
 
